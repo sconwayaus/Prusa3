@@ -105,12 +105,12 @@ translate([56-yrodseparation/2,-y_smooth_rod_length/2+9,board_thickness-12])
 // y idler mount
 translate([70-yrodseparation/2,y_smooth_rod_length/2-9,30 + board_thickness-12]) 
 {
-	translate([0,0-33,-8]) 
-		rotate([0,-90,0]) idlermount();
+	translate([-10,0-5,-8]) 
+		rotate([0,0,180]) idlermount();
 	translate([0,0,0])rotate([0,90,0])nutwasher();
 	translate([-20,0,0])rotate([0,90,180])nutwasher();
 	// bearing guide
-	translate([-5,-33+8,-8+8]) 
+	translate([-5,-18,-8+8]) 
 		rotate([0,-90,0]) bearing_guide();
 }
 
@@ -312,7 +312,6 @@ module z_rods()
 {
 	color("MediumBlue")
 	translate([board_w/2-4-12+board_thickness,-26+12-board_thickness,42])cylinder(h=z_smooth_rod_length,r=bushing_z[0]);
-    echo (z_smooth_rod_length);
 	color("Aqua")
 	translate([board_w/2-4-12+board_thickness-17,-26+12-board_thickness,56])cylinder(h = 390, r=2.5);
 }
