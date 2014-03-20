@@ -13,7 +13,7 @@
  * @category Printed
  */
  
-include <configuration.scad>
+include <../configuration.scad>
 use <y-drivetrain.scad>
 
 module nutrod(r=4.4){

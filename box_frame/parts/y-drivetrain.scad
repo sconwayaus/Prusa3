@@ -19,8 +19,8 @@
  * @category Printed
  */ 
  
-include <configuration.scad>
-use <inc/bearing-guide.scad>
+include <../configuration.scad>
+use <../inc/bearing-guide.scad>
 
 module motorholder(thickness=10){
     difference(){

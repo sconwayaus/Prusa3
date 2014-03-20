@@ -13,10 +13,10 @@
  * @category Printed
  */
 
-include <configuration.scad>
-use <bushing.scad>
+include <../configuration.scad>
+use <../inc/bushing.scad>
 // mounting plate
-use <extras/groovemount.scad>
+use <../extras/groovemount.scad>
 
 
 //Use 30 for single extruder, 50 for wades, 80 for dual extruders (moved to config file)

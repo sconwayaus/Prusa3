@@ -4,7 +4,7 @@
 // Václav 'ax' Hůla <axtheb@gmail.com>
 
 include <../configuration.scad>
-use <../bushing.scad>
+use <../inc/bushing.scad>
 
 use <../x-end.scad>
 

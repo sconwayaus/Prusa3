@@ -13,7 +13,7 @@
  * @category Printed
  */
  
-include <configuration.scad>
+include <../configuration.scad>
 
 module y_belt_holder(len=40) {
     y_delta = i_am_box == 0 ? -2.5 : xy_delta;

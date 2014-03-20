@@ -19,10 +19,10 @@
  * @category Printed
  */
  
-include <configuration.scad>
-use <bushing.scad>
-use <inc/bearing-guide.scad>
-use <y-drivetrain.scad>
+include <../configuration.scad>
+use <../inc/bushing.scad>
+use <../inc/bearing-guide.scad>
+use <../parts/y-drivetrain.scad>
 
 //height and width of the x blocks depend on x smooth rod radius
 x_box_height = 52 + 2 * bushing_xy[0];

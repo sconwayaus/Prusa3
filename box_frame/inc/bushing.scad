@@ -13,7 +13,7 @@
  * @category Printed
  */
  
-include <configuration.scad>
+include <../configuration.scad>
 
 // ensure that the part length is at least the length of bushing barrel plus add
 function adjust_bushing_len(conf_b, h, add=layer_height*2) = ((conf_b[2]+add) > h) ? conf_b[2]+add : h;

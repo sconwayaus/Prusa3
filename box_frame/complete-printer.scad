@@ -5,12 +5,12 @@
 // http://www.reprap.org/wiki/Prusa_Mendel
 // http://github.com/josefprusa/Prusa3
 
-include <../configuration.scad>
-use <../y-drivetrain.scad>
-use <../y-axis-corner.scad>
-use <../z-axis.scad>
-use <../x-end.scad>
-use <../x-carriage.scad>
+include <configuration.scad>
+use <parts/y-drivetrain.scad>
+use <parts/y-axis-corner.scad>
+use <parts/z-axis.scad>
+use <parts/x-end.scad>
+use <parts/x-carriage.scad>
 
 module nutwasher(){
 	color("silver")
